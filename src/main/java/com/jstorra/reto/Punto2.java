@@ -34,9 +34,9 @@ public class Punto2 {
             }
         }
         if (contraseña.length() >= 8 && mayusculas > 0 && minusculas > 0 && numeros > 0 && caracteres > 0) {
-            System.out.println("La contraseña es valida.");
+            System.out.println("La contraseña es válida.");
         } else {
-            System.out.println("La contraseña no es valida.");
+            System.out.println("La contraseña no es válida.");
         }
     }
 }
