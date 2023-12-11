@@ -69,7 +69,7 @@ public static void main(String[] args) {
     char[] alfabetoMinusculas = new char[26];
     char[] alfabetoMayusculas = new char[26];
     char[] simbolos = {'!', '@', '#', '$', '%', '^', '&', '*'};
-    int[] numeros = {1,2,3,4,5,6,7,8,9};
+    int[] numeros = {0,1,2,3,4,5,6,7,8,9};
     
     for (int i = 0; i < 26; i++) {
         alfabetoMinusculas[i] = (char) ((int) letraMinuscula + i);
