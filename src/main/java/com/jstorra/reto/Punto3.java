@@ -26,6 +26,7 @@ public class Punto3 {
         }
         
         String contraseña = "";
+        int longitudContraseña = 16;
         
         // cambia los parametros segun su necesidad
         boolean mayusculaParametro = true;
@@ -43,7 +44,7 @@ public class Punto3 {
             if (simboloParametro) {
                 contraseña += simbolos[(int) ((Math.random() * 10) % simbolos.length)];
             }
-            if (contraseña.length() >= 8 && contraseña.length() <= 16) { break; }
+            if (contraseña.length() == longitudContraseña) { break; }
         }
         System.out.println("Contraseña aleatoria: " + contraseña);
     }
